@@ -1,0 +1,119 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Oswald:wght@600&family=Ysabeau+Office:wght@200&display=swap');
+
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: 0;
+ }
+
+ body {
+     background-color: #DEBA9D;
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+ }
+
+ .TodoWrapper {
+     max-height: max-content;
+     min-height: 80vh;
+     width: 550px;
+     display: flex;
+     flex-direction: column;
+     justify-content: baseline;
+     align-items: center;
+     background-color: #9E7777;
+ }
+
+ h1 {
+     margin: 150px 0 50px 0;
+     letter-spacing: 4px;
+     font-family: 'Oswald', sans-serif;
+     color: #6F4C5B;
+ }
+
+
+ /*TodoForm.jsx*/
+
+
+ .todo-form-button {
+     border: none;
+     height: 24px;
+     width: 100px;
+     font-size: 1rem;
+     margin-left: 20px;
+     font-family: 'Dosis', sans-serif;
+     letter-spacing: 1px;
+ }
+
+ input {
+     height: 20px;
+     width: 300px;
+ }
+
+
+ input::placeholder {
+     font-size: 16px;
+     letter-spacing: 1px;
+     font-family: 'Ysabeau Office', sans-serif;
+ }
+
+ /*EditTodoForm*/
+
+ .edit-todo-form-button {
+     border: none;
+     height: 24px;
+     width: 100px;
+     font-size: 1rem;
+     margin-left: 20px;
+     font-family: 'Dosis', sans-serif;
+     letter-spacing: 1px;
+ }
+
+ /*Todo.jsx*/
+
+ .todo {
+    background-color: #F5E8C7;
+    width: 423px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+}
+
+ .todo-button-edit {
+     border: none;
+     background-color: transparent;
+     margin-right: 30px;
+     transition: all linear 0.15s;
+ }
+
+ .todo-button-edit:hover{
+    cursor: pointer;
+    color:#9E7777;
+}
+
+ .todo-button-task {
+    border: none;
+    background-color: transparent;
+    margin-right: 15px;
+    transition: all linear 0.15s;
+}
+
+.todo-button-task:hover{
+    cursor: pointer;
+    color:#9E7777;
+}
+
+ .edit-button {
+     font-size: 18px;
+ }
+
+ .task-button {
+    font-size: 18px;
+}
+
+.todo-text{
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1px;
+}
